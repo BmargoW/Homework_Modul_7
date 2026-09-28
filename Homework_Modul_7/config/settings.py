@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     'users',
+    "teaching",
 
     "rest_framework"
 ]
@@ -126,11 +127,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.1/howto/static-files/
 
 STATIC_URL = "static/"
-STATICFILES_DIRS = [
-    # Здесь вы можете добавить пути к вашим статическим файлам,
-    # если они располагаются вне приложений
-    BASE_DIR / 'static'
-]
+# STATICFILES_DIRS = [
+#     # Здесь вы можете добавить пути к вашим статическим файлам,
+#     # если они располагаются вне приложений
+#     BASE_DIR / 'static'
+# ]
 
 
 MEDIA_URL = '/media/'
